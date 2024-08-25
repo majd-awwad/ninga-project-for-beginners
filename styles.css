@@ -1,0 +1,166 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+header {
+    background-color: #ec3838;
+    text-align: center;
+    width: 100%;
+    color: white;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+header > h1 {
+    display: inline-block;
+    padding: 15px;
+    box-sizing: border-box;
+    border: 3px solid white;
+    border-radius: 36px;
+}
+
+.banner {
+    position: relative;
+}
+
+.banner > img{
+    width: 100%;
+}
+
+.banner .welcome{
+    width: 28.7%;
+    position: absolute;
+    top: 30%;
+    background-color: #ffb224;
+    color: white;
+    padding: 25px;
+    font-size: 2.9em;
+}
+
+.banner .welcome span {
+    font-size: 1.5em;
+}
+
+nav {
+    background-color: #e7e0e0;
+    white-space: nowrap;
+
+    position: sticky;
+    top: 116px;;
+}
+
+nav > ul {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav > ul > li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 25px 2%;
+    padding: inherit;
+    box-sizing: border-box;
+}
+
+nav > ul > li > a{
+    color: black;
+    text-decoration: none;
+    font-size: 1.5em;
+    text-transform: capitalize;
+}
+
+nav > ul > li > a:hover{
+    text-decoration: underline;
+}
+
+nav ul li:first-child a {
+    color: #ffffff;
+    background-color: #ec3838;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+main article h3 {
+    color: #ec3838;
+    font-size: 2.5em;
+    margin-left: 50px;
+}
+
+main article p {
+    font-size: 1.5em;
+}
+
+main article p:first-line {
+    font-weight: bold;
+}
+
+.images {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+
+.images li{
+    max-width: 40%;
+    display: inline-block;
+}
+
+.join {
+    width: 100%;
+    background-color: #F4F4F4;
+    padding: 20px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.join h2 {
+    font-size: 3.2em;
+}
+
+.join p {
+    font-size: 1.7em;
+}
+
+.join input {
+    outline: none;
+    border: none;
+    padding: inherit;
+    width: 30%;
+    height: 50px;
+    border-radius: 28px;
+    box-sizing: border-box;
+}
+
+.join input:focus {
+    border: 3px dashed #871111;
+}
+
+*::selection {
+    background-color: #ec3838;
+    color: white;
+}
+
+
+footer p{
+    width: 100%;
+    background-color: #ec3838;
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    color: white;
+    padding: 50px;
+    margin: 0;
+}
